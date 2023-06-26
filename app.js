@@ -28,7 +28,7 @@ import trackRouter from './routes/TrackingData-route.js';
 const app = express();
 app.use(cors(
     {
-        origin: ["https://fleet-system.vercel.app"],
+        origin: ["https://https://fleet-backend-eta.vercel.app/"],
         methods: ["POST","GET"],
         credentials: true
     }
