@@ -28,7 +28,7 @@ import trackRouter from './routes/TrackingData-route.js';
 const app = express();
 app.use(cors(
     {
-        origin: [""],
+        origin: ["https://front-3dof0mt10-tab26.vercel.app"],
         methods: ["POST","GET"],
         credentials: true
     }
